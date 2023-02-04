@@ -1,0 +1,161 @@
+body {
+   background-color: #121212;
+   color: white;
+   font-family: "Baskerville", sans-serif;
+   height: fit-content;
+}
+ul {
+   font-size: 26px;
+}
+h1 {
+   font-size: 40px;
+   text-align: center;
+   text-shadow: 2px 2px darkgreen;
+   color: green;
+}
+h2, h4 {
+   margin: 0;
+   text-transform: uppercase;
+}
+h5{
+   margin-top: 5%;
+   margin-left: 5%;
+}
+h3{
+   text-align: center;
+   margin-top: 20%;
+   margin-left: 4%;
+}
+h6 {
+   margin-top: -1%;
+}
+button {
+   text-align: center;
+   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+   border: none;
+   background-color: #343433;
+   border-radius: 10px;
+   height: 2%;
+   width: 23%;
+   min-height: 4%;
+   color: white;
+}
+li {
+   border-radius: 40px;
+   margin: 20px;
+   min-height: 20px;
+}
+a {
+   background-color: #343433;
+   margin: 20px;
+   min-height: 20px;
+   display: flex;
+   border-radius: 15px;
+   padding: 3%
+}
+.pequenomenu {
+   opacity: 10%;
+   margin-top: -2%;
+}
+.corpo {
+   display: flex;
+}
+.menu_lateral {
+   margin-top: -2%;
+   font-size: 15px;
+   border-style: solid;
+   border-color: black;
+   display: block;
+   padding: 2%;
+   width: 60%;
+   margin-left: -62%;
+   transition: 0.5s;
+}
+.principal {
+   height: 100%;
+   width: 100%;
+   overflow: scroll;
+}
+.calendar {
+   text-shadow: skyblue;
+   margin-left: 50px;
+   background-color: #343433;
+   border-radius: 15px;
+   margin-right: 20px;
+   padding: 1%;
+}
+.datas {
+   background-color: #153e51;
+   padding: 2%;
+   border-radius: 7px;
+}
+.bottom {
+   display: flex;
+   background-color: #121212;
+   box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+   border-style: solid;
+   border-color: black;
+   margin-left: -2%;
+   margin-right: -2%;
+   margin-bottom: -2%;
+}
+.bottom1, .bottom2 {
+   width: 46%;
+}
+.conta {
+   width: 50%;
+}
+.icon {
+   border-radius: 2%;
+   margin-bottom: 10px;
+   width: 100%;
+   box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+}
+.titulo {
+   padding: 4%;
+   text-align: center;
+}
+.openbtn {
+   display: block;
+   width: 40px;
+   height: 100%;
+   border-radius: 0;
+}
+.closebtn {
+   display: none;
+   width: 40px;
+   height: 100%;
+   border-radius: 0;
+}
+.matematica {
+   background-color: #367CEB;
+   margin-left: 50px;
+   border-radius: 15px;
+   margin-right: 20px;
+   margin-bottom: 20px;
+   padding: 4%;
+}
+.projeto {
+   background-color: #FF8B66;
+   margin-left: 50px;
+   border-radius: 15px;
+   margin-right: 20px;
+   margin-bottom: 20px;
+   padding: 4%;
+}
+.quimica {
+   background-color: #009788;
+   margin-left: 50px;
+   border-radius: 15px;
+   margin-right: 20px;
+   margin-bottom: 20px;
+   padding: 4%;
+}
+.autoria {
+   background-color: #FF8B66;
+   margin-left: 50px;
+   border-radius: 15px;
+   margin-right: 20px;
+   margin-bottom: 0px;
+   padding: 4%;
+}
